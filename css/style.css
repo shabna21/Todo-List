@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   
+	background-size:350px 350px;
+}
+h2{
+	text-align: center;
+	font-size: 80px;
+	font-family:sans-serif;
+	font-weight: 800;
+	font-style: italic;
+	color:rgb(36, 124, 14);
+	}
+#todoGif{
+	margin-top: 10px;
+	margin-left: 46%;
+}
+
+.container{
+    align-items: center;
+	width: 350px;
+    height: 350px; 
+	border-radius: 50%;
+	shape-outside: circle();
+	color:black;	
+    border: 2px solid white;
+    background-color:rgb(179, 15, 69);
+	display: flex;
+	flex-direction: column;	
+	justify-content: center;
+	text-align: center;	
+	margin-left: 36%;
+
+
+}
+.container #username{
+	width: 50%;
+    height: 30px;
+    font-size: 20px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border: 2px solid #b5c5dd;
+    border-radius: 5px;
+    margin-top: 8%;
+}
+.container #password{
+	width: 50%;
+    height: 30px;
+    font-size: 20px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border: 2px solid #b5c5dd;
+    border-radius: 5px;
+    margin-top: 8%;
+	margin-left: 13px;
+}
+
+.btn{
+	width: 150px;
+	height: 150px;
+	color:white;
+	font-size: 20px;
+	font-weight: 700;
+	border: 1px solid white;
+	border-radius: 50%;
+	shape-outside: circle();
+	margin-top: 10%;
+	background-color:blue;
+	margin-left: 45%;
+	
+}
+
+.main{
+margin-top: 70%;	
+  font-size:3vh;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  line-height: 8vh;
+  
+}

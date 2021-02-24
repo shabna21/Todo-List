@@ -1,0 +1,84 @@
+
+ 
+
+  body{
+    background-color:rosybrown;
+}
+.container{
+    margin-top: 5%;
+    background:midnightblue;
+    width: 900px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+   
+    height: 800px;
+    overflow: auto;
+    color: black;
+    border: 10px solid darkblue;
+    border-radius: 10px;
+}
+
+.todocheck{
+    box-sizing: border-box;
+    border: 2px solid white;
+text-align: start;
+font-size: 3vh;
+font-weight: 700;
+color:black;
+background-color:rgb(190, 213, 231);
+margin-top: 2%;
+}
+#logOut{
+   /* float: left; */
+    border: 3px solid white;
+    margin-left: 300px;
+    /* margin-right: 90%; */
+    border-radius: 40%;
+    color:ivory;
+    font-weight: 700;
+    background-color: indigo;
+    
+}
+h1{
+    /* text-align: center; */
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    color: navy;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    margin-left: 25%;
+    font-weight: bold;
+    font-size: 30%;
+    /* margin-top: 5%; */
+}
+.button{
+background-color:white;
+margin-right: 5%;
+margin-top: 5%;
+font-weight: 700;
+border: 1px solid blue;
+width: 20%;
+border-radius: 60%;
+color: blue;
+
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.row #bck{
+    border: 1px solid white;
+    background-color: #2980b9;
+    width: 100%;
+   
+    border-radius: 10px;
+    font-weight: bold;
+    margin-left:100%;
+
+}
+#toggleImage{
+    width: 70%;
+    height:auto;
+}
